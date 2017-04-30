@@ -11,12 +11,12 @@ url: "https://nlappas.github.io"   # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Social
-github_username: # put your github username
-twitter_username: # put your twitter username
-linkedin_username: # put your linkedin username
-scholar_authorid: # put your google scholar author id
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+github_username: nlappas # put your github username
+twitter_username: Nikos_Lappas # put your twitter username
+linkedin_username: nikoslappas@outlook.com  # put your linkedin username
+scholar_authorid: nlappas@andrew.cmu.edu. # put your google scholar author id
+#$contact_note: >
+  
 
 # Footer text
 footer_text: >
@@ -67,7 +67,7 @@ gems:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Lappas
 
   style: apa
   locale: en

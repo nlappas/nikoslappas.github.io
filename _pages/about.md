@@ -1,20 +1,22 @@
 ---
 layout: about
 permalink: /
-title: your name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: Nikos Lappas
+description: <a href="">Carnegie Mellon University</a>. 5000 Forbes Avenue, Pittsburgh, PA 15212, USA.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>555 Doherty Hall 1207</p>
+    <p>5000 Forbes Avenue</p>
+    <p>Pittshburgh, PA 15212</p>
 
 news: true
 social: true
 ---
+
+## SITE UNDER CONSTRUCTION
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
