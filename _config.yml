@@ -22,11 +22,10 @@ scholar_authorid: nlappas@andrew.cmu.edu. # put your google scholar author id
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 # Blog
-blog_name: al-folio
-blog_description: simple whitespace theme for academics
+blog_name: Nikos Lappas
+blog_description: Nikos Lappas' personal web page
 
 # Collections
 collections:
@@ -39,7 +38,7 @@ collections:
     output: true
     permalink: /projects/:path/
   poetry:
-    output: true
+    output: false
     permalink: /poetry/:path/
 
 # -----------------------------------------------------------------------------
@@ -48,7 +47,7 @@ collections:
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # Pagination
 paginate: 15

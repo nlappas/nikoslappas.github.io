@@ -83,11 +83,11 @@ a {
   }
   */ }
   a:hover {
-    color: #B509AC;
+    color: #FF3636;
     text-decoration: none; }
 
 article a, .news a {
-  color: #B509AC;
+  color: #FF3636;
   font-weight: 100; }
   article a:hover, .news a:hover {
     text-decoration: underline; }
@@ -95,7 +95,7 @@ article a, .news a {
 .social a {
   color: #666; }
   .social a:hover {
-    color: #B509AC; }
+    color: #FF3636; }
 
 /**
  * Blockquotes
@@ -181,7 +181,7 @@ div.equation {
   margin-bottom: 0; }
   .site-title:hover {
     text-decoration: none;
-    color: #B509AC; }
+    color: #FF3636; }
 
 .site-nav {
   float: right;
@@ -215,7 +215,7 @@ div.equation {
   line-height: 3em;
   z-index: 25; }
   .header-bar h1 {
-    color: #B509AC;
+    color: #FF3636;
     font-size: 75px; }
   .header-bar h2 {
     font-size: 25px; }
@@ -283,7 +283,7 @@ div.equation {
   .site-footer a {
     color: #fff; }
   .site-footer a:hover {
-    color: #B509AC; }
+    color: #FF3636; }
 
 /*****************************************************************************
  * Pagination
@@ -298,7 +298,7 @@ div.equation {
 .paginationicon {
   font-size: 50px; }
   .paginationicon a {
-    color: #B509AC; }
+    color: #FF3636; }
 
 /*****************************************************************************
  * Page content
@@ -368,7 +368,7 @@ div.equation {
  * Publications
  *****************************************************************************/
 .publications h2 {
-  color: #B509AC;
+  color: #FF3636;
   font-size: 32px;
   margin: 40px 0;
   text-align: center; }
@@ -392,7 +392,7 @@ div.equation {
     .bibliography li .title {
       font-weight: bolder; }
     .bibliography li .author a {
-      border-bottom: 1px dashed #B509AC; }
+      border-bottom: 1px dashed #FF3636; }
       .bibliography li .author a:hover {
         border-bottom-style: solid;
         text-decoration: none; }
@@ -433,7 +433,7 @@ div.equation {
     left: -7em; }
 
 .star {
-  color: #B509AC;
+  color: #FF3636;
   font-style: normal; }
 
 /*****************************************************************************
@@ -493,7 +493,7 @@ div.equation {
  * Portfolio pages **********************************************************
 */
 .blankbox {
-  background: #B509AC; }
+  background: #FF3636; }
 
 .img_row {
   height: 275px;

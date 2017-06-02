@@ -10,8 +10,8 @@
   <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
-  <link rel="stylesheet" href="https://nlappas.github.io/assets/css/main.css">
-  <link rel="canonical" href="https://nlappas.github.io/blog/2015/code/">
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/blog/2015/code/">
 </head>
 
 
@@ -25,10 +25,10 @@
 
       <div class="trigger">
         <!-- About -->
-        <a class="page-link" href="https://nlappas.github.io/">about</a>
+        <a class="page-link" href="http://localhost:4000/">about</a>
 
         <!-- Blog -->
-        <a class="page-link" href="https://nlappas.github.io/blog/">blog</a>
+        <a class="page-link" href="http://localhost:4000/blog/">blog</a>
 
         <!-- Pages -->
         
@@ -39,19 +39,19 @@
           
         
           
-            <a class="page-link" href="https://nlappas.github.io/poetry/">poetry</a>
+            <a class="page-link" href="http://localhost:4000/poetry/">poetry</a>
           
         
           
-            <a class="page-link" href="https://nlappas.github.io/projects/">projects</a>
+            <a class="page-link" href="http://localhost:4000/projects/">projects</a>
           
         
           
-            <a class="page-link" href="https://nlappas.github.io/publications/">publications</a>
+            <a class="page-link" href="http://localhost:4000/publications/">publications</a>
           
         
           
-            <a class="page-link" href="https://nlappas.github.io/teaching/">teaching</a>
+            <a class="page-link" href="http://localhost:4000/teaching/">teaching</a>
           
         
 
@@ -80,11 +80,11 @@
 
 <p>Produces something like this:</p>
 
-<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span></span><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
 <span class="p">{</span>
 	<span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
 
-	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;input a string: &quot;</span><span class="p">;</span>
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
 	<span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
 	<span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
 
@@ -92,7 +92,7 @@
 
 	<span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
 	<span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
-		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">&quot; &quot;</span><span class="p">;</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
 	<span class="p">}</span>
 
 	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
@@ -111,7 +111,7 @@
   <div class="wrapper">
   	<p class="small">
     © Copyright 2017 Nikos Lappas.
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 </p>
   </div>
 
@@ -122,16 +122,16 @@
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 
 <!-- Load Common JS -->
-<script src="https://nlappas.github.io/assets/js/common.js"></script>
+<script src="http://localhost:4000/assets/js/common.js"></script>
 
 <!-- Load KaTeX -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
-<script src="https://nlappas.github.io/assets/js/katex.js"></script>
+<script src="http://localhost:4000/assets/js/katex.js"></script>
 
 <!-- Include custom icon fonts -->
-<link rel="stylesheet" href="https://nlappas.github.io/assets/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://nlappas.github.io/assets/css/academicons.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.min.css">
 
 
   </body>
