@@ -13,8 +13,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 # Social
 github_username: nlappas # put your github username
 twitter_username: Nikos_Lappas # put your twitter username
-linkedin_username: nikoslappas@outlook.com  # put your linkedin username
-scholar_authorid: nlappas@andrew.cmu.edu. # put your google scholar author id
+linkedin_username: nikos-lappas-a7b41b32  # put your linkedin username
+scholar_authorid: VaFDvg0AAAAJ&hl # put your google scholar author id
 #$contact_note: >
   
 
@@ -25,7 +25,7 @@ footer_text: >
 
 # Blog
 blog_name: Nikos Lappas
-blog_description: Nikos Lappas' personal web page
+blog_description: Nikos Lappas' personal (research / curiosity oriented) blog
 
 # Collections
 collections:
@@ -34,12 +34,12 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  # projects:
+  #   output: true
+  #   permalink: /projects/:path/
+  opinion:
     output: true
-    permalink: /projects/:path/
-  poetry:
-    output: false
-    permalink: /poetry/:path/
+    permalink: /opinion/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

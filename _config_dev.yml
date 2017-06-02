@@ -11,22 +11,21 @@ url: "http://localhost:4000"   # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Social
-github_username: # put your github username
-twitter_username: # put your twitter username
-linkedin_username: # put your linkedin username
-scholar_authorid: # put your google scholar author id
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+github_username: nlappas # put your github username
+twitter_username: Nikos_Lappas # put your twitter username
+linkedin_username: nikos-lappas-a7b41b32  # put your linkedin username
+scholar_authorid: VaFDvg0AAAAJ&hl # put your google scholar author id
+#$contact_note: >
+  
 
 # Footer text
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 # Blog
-blog_name: al-folio
-blog_description: simple whitespace theme for academics
+blog_name: Nikos Lappas
+blog_description: Nikos Lappas' personal (research / curiosity oriented) blog
 
 # Collections
 collections:
@@ -36,11 +35,11 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
-  poetry:
+  opinion:
     output: true
-    permalink: /poetry/:path/
+    permalink: /opinion/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -48,7 +47,7 @@ collections:
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # Pagination
 paginate: 15
@@ -67,7 +66,7 @@ gems:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Lappas
 
   style: apa
   locale: en
