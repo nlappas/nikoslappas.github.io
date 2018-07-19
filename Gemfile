@@ -1,4 +1,5 @@
 gem 'pygments.rb'
 gem 'github-pages'
 gem 'jekyll-scholar'
+gem 'unicode'
 source 'https://rubygems.org'
