@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 github_username: nlappas # put your github username
 twitter_username: Nikos_Lappas # put your twitter username
 linkedin_username: nikos-lappas-a7b41b32  # put your linkedin username
-scholar_authorid: VaFDvg0AAAAJ&hl # put your google scholar author id
+scholar_authorid: VaFDvg0AAAAJ&hl=en # put your google scholar author id
 #$contact_note: >
   
 
