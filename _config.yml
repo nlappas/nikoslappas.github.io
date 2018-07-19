@@ -58,7 +58,7 @@ paginate_path: /blog/page:num/
 include: ['_pages']
 
 # Gems
-gems:
+plugins:
     - jekyll-paginate
     - jekyll/scholar
     - jemoji
